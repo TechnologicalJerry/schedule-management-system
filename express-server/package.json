@@ -1,0 +1,59 @@
+{
+  "name": "schedule-management-system",
+  "version": "1.0.0",
+  "description": "The Schedule Management System",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "gen": "plop",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechnologicalJerry/schedule-management-system.git"
+  },
+  "keywords": [
+    "insurance",
+    "management",
+    "system",
+    "Node.js",
+    "Express",
+    "TypeScript",
+    "MongoDB",
+    "REST",
+    "API"
+  ],
+  "author": "technojerry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TechnologicalJerry/schedule-management-system/issues"
+  },
+  "homepage": "https://github.com/TechnologicalJerry/schedule-management-system#readme",
+  "dependencies": {
+    "@typegoose/typegoose": "^12.10.1",
+    "argon2": "^0.41.1",
+    "config": "^3.3.12",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.9.6",
+    "nanoid": "^5.0.9",
+    "nodemailer": "^6.10.0",
+    "pino": "^9.6.0",
+    "schedule-management-system": "file:",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.5",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/lodash": "^4.17.15",
+    "@types/nodemailer": "^6.4.17",
+    "pino-pretty": "^13.0.0",
+    "plop": "^4.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.3"
+  }
+}
